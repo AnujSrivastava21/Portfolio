@@ -6,21 +6,21 @@ import { BsGithub, BsGlobe } from 'react-icons/bs'
 const Home = () => {
   return (
     <div className="bg-white min-h-screen">
-      <div className='grid grid-cols-3 gap-8 min-h-screen p-10'>
+      <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8 min-h-screen p-4 lg:p-10'>
         {/* Summary Card */}
-        <div className='bg-gradient-to-br from-slate-500 via-slate-600 to-slate-700 min-h-[50px] shadow-2xl rounded-3xl p-8 text-white transform transition-all duration-500 hover:scale-105 hover:shadow-slate-500/25 hover:-translate-y-2 hover:rotate-1'>
+        <div className='bg-gradient-to-br from-slate-500 via-slate-600 to-slate-700 min-h-[50px] shadow-2xl rounded-3xl p-4 lg:p-8 text-white transform transition-all duration-500 hover:scale-105 hover:shadow-slate-500/25 hover:-translate-y-2 hover:rotate-1'>
           <div className="flex items-center mb-6">
             <div className="bg-white/20 p-3 rounded-full mr-4 shadow-lg transition-all duration-300 hover:bg-white/30 hover:scale-110 hover:rotate-12">
               <FaUser className="text-3xl" />
             </div>
-            <h2 className="text-3xl font-bold font-serif text-white">Summary</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold font-serif text-white">Summary</h2>
           </div>
           
           <div className="mb-6 text-center">
-            <h1 className="text-5xl font-bold font-serif text-amber-300 mb-2 tracking-wide">
+            <h1 className="text-3xl lg:text-5xl font-bold font-serif text-amber-300 mb-2 tracking-wide">
               Anuj Srivastava
             </h1>
-            <p className="text-xl text-gray-200 font-medium">
+            <p className="text-lg lg:text-xl text-gray-200 font-medium">
               Full-Stack Developer
             </p>
           </div>
@@ -33,12 +33,12 @@ const Home = () => {
         </div>
         
         {/* Experience Card */}
-        <div className='bg-gradient-to-br from-gray-600 via-gray-700 to-gray-800 min-h-[50px] shadow-2xl rounded-3xl p-8 text-white col-span-2 transform transition-all duration-500 hover:scale-105 hover:shadow-gray-500/25 hover:-translate-y-2 hover:rotate-1'>
+        <div className='bg-gradient-to-br from-gray-600 via-gray-700 to-gray-800 min-h-[50px] shadow-2xl rounded-3xl p-4 lg:p-8 text-white lg:col-span-2 transform transition-all duration-500 hover:scale-105 hover:shadow-gray-500/25 hover:-translate-y-2 hover:rotate-1'>
           <div className="flex items-center mb-6">
             <div className="bg-white/20 p-3 rounded-full mr-4 shadow-lg transition-all duration-300 hover:bg-white/30 hover:scale-110 hover:rotate-12">
               <FaBriefcase className="text-3xl" />
             </div>
-            <h2 className="text-3xl font-bold font-serif text-white">Experience</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold font-serif text-white">Experience</h2>
           </div>
           <div className="space-y-6">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 shadow-xl hover:bg-white/15 transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-2xl hover:border-amber-300/30">
@@ -67,12 +67,12 @@ const Home = () => {
         </div>
         
         {/* Projects Card */}
-        <div className='bg-gradient-to-br from-zinc-600 via-zinc-700 to-zinc-800 min-h-[50px] shadow-2xl rounded-3xl p-8 text-white transform transition-all duration-500 hover:scale-105 hover:shadow-zinc-500/25 hover:-translate-y-2 hover:rotate-1'>
+        <div className='bg-gradient-to-br from-zinc-600 via-zinc-700 to-zinc-800 min-h-[50px] shadow-2xl rounded-3xl p-4 lg:p-8 text-white transform transition-all duration-500 hover:scale-105 hover:shadow-zinc-500/25 hover:-translate-y-2 hover:rotate-1'>
           <div className="flex items-center mb-6">
             <div className="bg-white/20 p-3 rounded-full mr-4 shadow-lg transition-all duration-300 hover:bg-white/30 hover:scale-110 hover:rotate-12">
               <FaCode className="text-3xl" />
             </div>
-            <h2 className="text-3xl font-bold font-serif text-white">Projects</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold font-serif text-white">Projects</h2>
           </div>
           <div className="space-y-4">
 
@@ -138,12 +138,12 @@ const Home = () => {
         </div>
         
         {/* Skills Card */}
-        <div className='bg-gradient-to-br from-neutral-600 via-neutral-700 to-neutral-800 min-h-[50px] shadow-2xl rounded-3xl p-8 text-white transform transition-all duration-500 hover:scale-105 hover:shadow-neutral-500/25 hover:-translate-y-2 hover:rotate-1'>
+        <div className='bg-gradient-to-br from-neutral-600 via-neutral-700 to-neutral-800 min-h-[50px] shadow-2xl rounded-3xl p-4 lg:p-8 text-white transform transition-all duration-500 hover:scale-105 hover:shadow-neutral-500/25 hover:-translate-y-2 hover:rotate-1'>
           <div className="flex items-center mb-6">
             <div className="bg-white/20 p-3 rounded-full mr-4 shadow-lg transition-all duration-300 hover:bg-white/30 hover:scale-110 hover:rotate-12">
               <FaCode className="text-3xl" />
             </div>
-            <h2 className="text-3xl font-bold font-serif text-white">Skills</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold font-serif text-white">Skills</h2>
           </div>
           <div className="space-y-4">
             <div>
@@ -204,12 +204,12 @@ const Home = () => {
         </div>
         
         {/* Education Card */}
-        <div className='bg-gradient-to-br from-stone-600 via-stone-700 to-stone-800 min-h-[50px] shadow-2xl rounded-3xl p-8 text-white transform transition-all duration-500 hover:scale-105 hover:shadow-stone-500/25 hover:-translate-y-2 hover:rotate-1'>
+        <div className='bg-gradient-to-br from-stone-600 via-stone-700 to-stone-800 min-h-[50px] shadow-2xl rounded-3xl p-4 lg:p-8 text-white transform transition-all duration-500 hover:scale-105 hover:shadow-stone-500/25 hover:-translate-y-2 hover:rotate-1'>
           <div className="flex items-center mb-6">
             <div className="bg-white/20 p-3 rounded-full mr-4 shadow-lg transition-all duration-300 hover:bg-white/30 hover:scale-110 hover:rotate-12">
               <FaGraduationCap className="text-3xl" />
             </div>
-            <h2 className="text-3xl font-bold font-serif text-white">Education</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold font-serif text-white">Education</h2>
           </div>
           <div className="space-y-4">
             <div className="bg-white/10 backdrop-blur-sm p-4 rounded-2xl border border-white/20 shadow-lg hover:bg-white/15 transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:border-amber-300/30">
@@ -222,12 +222,12 @@ const Home = () => {
         </div>
         
         {/* Contact Card */}
-        <div className='bg-gradient-to-br from-slate-700 via-slate-800 to-slate-900 min-h-[50px] shadow-2xl rounded-3xl p-8 text-white transform transition-all duration-500 hover:scale-105 hover:shadow-slate-500/25 hover:-translate-y-2 hover:rotate-1'>
+        <div className='bg-gradient-to-br from-slate-700 via-slate-800 to-slate-900 min-h-[50px] shadow-2xl rounded-3xl p-4 lg:p-8 text-white transform transition-all duration-500 hover:scale-105 hover:shadow-slate-500/25 hover:-translate-y-2 hover:rotate-1'>
           <div className="flex items-center mb-6">
             <div className="bg-white/20 p-3 rounded-full mr-4 shadow-lg transition-all duration-300 hover:bg-white/30 hover:scale-110 hover:rotate-12">
               <FaEnvelope className="text-3xl" />
             </div>
-            <h2 className="text-3xl font-bold font-serif text-white">Contact</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold font-serif text-white">Contact</h2>
           </div>
                       <div className="space-y-4">
               <a href="mailto:anujsrivastava743@gmail.com" className="flex items-center space-x-3 bg-white/10 p-3 rounded-xl hover:bg-white/15 transition-all duration-500 hover:scale-105 hover:translate-x-3 hover:shadow-xl hover:border-l-4 hover:border-l-amber-300 cursor-pointer">
@@ -254,14 +254,14 @@ const Home = () => {
         </div>
         
         {/* Looking For Card */}
-        <div className='bg-gradient-to-br from-gray-800 via-gray-900 to-black min-h-[50px] shadow-2xl rounded-3xl p-8 text-white col-span-2 transform transition-all duration-500 hover:scale-105 hover:shadow-gray-500/25 hover:-translate-y-2 hover:rotate-1'>
+        <div className='bg-gradient-to-br from-gray-800 via-gray-900 to-black min-h-[50px] shadow-2xl rounded-3xl p-4 lg:p-8 text-white lg:col-span-2 transform transition-all duration-500 hover:scale-105 hover:shadow-gray-500/25 hover:-translate-y-2 hover:rotate-1'>
           <div className="flex items-center mb-6">
             <div className="bg-white/20 p-3 rounded-full mr-4 shadow-lg transition-all duration-300 hover:bg-white/30 hover:scale-110 hover:rotate-12">
               <FaSearch className="text-3xl" />
             </div>
-            <h2 className="text-3xl font-bold font-serif text-white">Looking For</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold font-serif text-white">Looking For</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 shadow-xl hover:bg-white/15 transition-all duration-500 hover:scale-105 hover:-translate-y-3 hover:shadow-2xl hover:border-amber-300/30 hover:rotate-1">
               <div className="flex items-center mb-3">
                 <div className="bg-white/20 p-2 rounded-full mr-3 transition-all duration-300 hover:bg-amber-300/30 hover:scale-110">
