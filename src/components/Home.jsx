@@ -30,6 +30,20 @@ const Home = () => {
             Passionate about creating <span className="font-semibold ">user-friendly interfaces</span> and scalable backend solutions. 
             Proficient in <span className="font-semibold text-amber-300">React</span>, <span className="font-semibold text-amber-300">Node.js</span>, <span className="font-semibold text-amber-300">Next.js</span>, and <span className="font-semibold text-amber-300">TypeScript</span>.
           </p>
+          
+          <div className="mt-6 text-center">
+            <a 
+              href="https://drive.google.com/file/d/1whpgSFyW7KBxV6jgsLCgcF3vNUssY-xw/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-flex items-center px-6 py-3 bg-amber-300 text-gray-900 font-bold rounded-xl shadow-lg hover:bg-amber-400 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:-translate-y-1"
+            >
+              <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0014.414 6L12 3.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clipRule="evenodd" />
+              </svg>
+              Download Resume
+            </a>
+          </div>
         </div>
         
         {/* Experience Card */}
